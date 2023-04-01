@@ -3424,7 +3424,7 @@
             observeParents: true,
             slidesPerView: 3,
             spaceBetween: 0,
-            speed: 800,
+            speed: 300,
             loop: true,
             navigation: {
                 prevEl: ".swiper-button-prev",
