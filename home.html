@@ -11,7 +11,7 @@
     <!-- <style>body{opacity: 0;}</style> -->
     <link
       rel="stylesheet"
-      href="css/style.min.css?_v=20230401111045"
+      href="css/style.min.css?_v=20230402190113"
     >
     <link
       rel="shortcut icon"
@@ -78,11 +78,14 @@
                 </defs>
               </svg>
             </a>
-            <nav class="header__navigation">
+            <nav
+              class="header__navigation"
+              data-da=".header__menu-burger,950,2"
+            >
               <ul class="header__menu">
                 <li class="header__item"><a
                     href="#"
-                    class="header__menu-link"
+                    class="header__menu-link _is-active"
                   >Home</a></li>
                 <li class="header__item"><a
                     href="#"
@@ -113,9 +116,19 @@
             <a
               href="#"
               class="header__get-started"
+              data-da=".header__menu-burger,950,1"
             >
               Get Started
             </a>
+          </div>
+
+          <button
+            type="button"
+            class="menu__icon icon-menu"
+          >
+            <span></span>
+          </button>
+          <div class="header__menu-burger menu">
           </div>
         </div>
       </header>
@@ -301,12 +314,71 @@
                     </p>
                   </a>
                 </div>
-                <!-- Если нужна пагинация -->
-                <div class="swiper-pagination"></div>
-                <!-- Если нужна навигация (влево/вправо) -->
+                <div class="rewievs-slider__slide swiper-slide">
+                  <a
+                    href="#"
+                    class="rewievs-slider__link"
+                  >
+                    <div class="rewievs-slider__title-row">
+                      <div class="rewievs-slider__text-info">
 
+                        <h2 class="rewievs-slider__subtitle">Coinbase Review</h2>
+                        <span class="rewievs-slider__post-info rewievs-slider__post-info--author">Posted by: Kevin
+                          Groves</span>
+                        <span class="rewievs-slider__post-info rewievs-slider__post-info--time">Updated Feb 18th,
+                          2023</span>
+                        <span class="rewievs-slider__post-info rewievs-slider__post-info--langth">17 minute read</span>
+                      </div>
+                      <div class="rewievs-slider__image">
+                        <picture>
+                          <source
+                            srcset="img/slider-1.webp"
+                            type="image/webp"
+                          ><img
+                            src="img/slider-1.jpg"
+                            alt=""
+                          >
+                        </picture>
+                      </div>
+                    </div>
+                    <p>
+                      Bybit is one of the most well-known and respected exchanges in the world.
+                    </p>
+                  </a>
+                </div>
+                <div class="rewievs-slider__slide swiper-slide">
+                  <a
+                    href="#"
+                    class="rewievs-slider__link"
+                  >
+                    <div class="rewievs-slider__title-row">
+                      <div class="rewievs-slider__text-info">
+
+                        <h2 class="rewievs-slider__subtitle">Coinbase Review</h2>
+                        <span class="rewievs-slider__post-info rewievs-slider__post-info--author">Posted by: Kevin
+                          Groves</span>
+                        <span class="rewievs-slider__post-info rewievs-slider__post-info--time">Updated Feb 18th,
+                          2023</span>
+                        <span class="rewievs-slider__post-info rewievs-slider__post-info--langth">17 minute read</span>
+                      </div>
+                      <div class="rewievs-slider__image">
+                        <picture>
+                          <source
+                            srcset="img/slider-1.webp"
+                            type="image/webp"
+                          ><img
+                            src="img/slider-1.jpg"
+                            alt=""
+                          >
+                        </picture>
+                      </div>
+                    </div>
+                    <p>
+                      Bybit is one of the most well-known and respected exchanges in the world.
+                    </p>
+                  </a>
+                </div>
               </div>
-
             </div>
             <button
               type="button"
@@ -355,38 +427,38 @@
                     src="img/article-img-1.png"
                     alt=""
                   >
-                </a>
-                <div class="big-posts__info-container">
-                  <h2 class="big-posts__subtitle">
-                    Bullish Bearish Market
-                  </h2>
-                  <p class="big-posts__text">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                    exercitation
-                    ullamco laboris nisi ut aliquip ex ea commodo consequat...
-                  </p>
-                  <div class="big-posts__subinfo">
-                    <div class="big-posts__author-block">
-                      <picture>
-                        <source
-                          srcset="img/Author-img.webp"
-                          type="image/webp"
-                        ><img
-                          src="img/Author-img.jpg"
-                          alt=""
-                        >
-                      </picture>
-                      <div class="author__text-info">
-                        <span>Posted by: Kevin Groves</span>
-                        <span>Updated Feb 18th, 2023</span>
+                  <div class="big-posts__info-container">
+                    <h2 class="big-posts__subtitle">
+                      Bullish Bearish Market
+                    </h2>
+                    <p class="big-posts__text">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                      exercitation
+                      ullamco laboris nisi ut aliquip ex ea commodo consequat...
+                    </p>
+                    <div class="big-posts__subinfo">
+                      <div class="big-posts__author-block">
+                        <picture>
+                          <source
+                            srcset="img/Author-img.webp"
+                            type="image/webp"
+                          ><img
+                            src="img/Author-img.jpg"
+                            alt=""
+                          >
+                        </picture>
+                        <div class="author__text-info">
+                          <span>Posted by: Kevin Groves</span>
+                          <span>Updated Feb 18th, 2023</span>
+                        </div>
+                      </div>
+                      <div class="big-posts__more-info">
+                        <span>17 minute read</span>
                       </div>
                     </div>
-                    <div class="big-posts__more-info">
-                      <span>17 minute read</span>
-                    </div>
                   </div>
-                </div>
+                </a>
               </div>
               <div class="big-posts__item">
                 <a
@@ -397,38 +469,38 @@
                     src="img/article-img-1.jpg"
                     alt=""
                   >
-                </a>
-                <div class="big-posts__info-container">
-                  <h2 class="big-posts__subtitle">
-                    6 Best No KYC Crypto Exchanges
-                  </h2>
-                  <p class="big-posts__text">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                    exercitation
-                    ullamco laboris nisi ut aliquip ex ea commodo consequat...
-                  </p>
-                  <div class="big-posts__subinfo">
-                    <div class="big-posts__author-block">
-                      <picture>
-                        <source
-                          srcset="img/Author-img.webp"
-                          type="image/webp"
-                        ><img
-                          src="img/Author-img.jpg"
-                          alt=""
-                        >
-                      </picture>
-                      <div class="author__text-info">
-                        <span>Posted by: Kevin Groves</span>
-                        <span>Updated Feb 18th, 2023</span>
+                  <div class="big-posts__info-container">
+                    <h2 class="big-posts__subtitle">
+                      6 Best No KYC Crypto Exchanges
+                    </h2>
+                    <p class="big-posts__text">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                      exercitation
+                      ullamco laboris nisi ut aliquip ex ea commodo consequat...
+                    </p>
+                    <div class="big-posts__subinfo">
+                      <div class="big-posts__author-block">
+                        <picture>
+                          <source
+                            srcset="img/Author-img.webp"
+                            type="image/webp"
+                          ><img
+                            src="img/Author-img.jpg"
+                            alt=""
+                          >
+                        </picture>
+                        <div class="author__text-info">
+                          <span>Posted by: Kevin Groves</span>
+                          <span>Updated Feb 18th, 2023</span>
+                        </div>
+                      </div>
+                      <div class="big-posts__more-info">
+                        <span>17 minute read</span>
                       </div>
                     </div>
-                    <div class="big-posts__more-info">
-                      <span>17 minute read</span>
-                    </div>
                   </div>
-                </div>
+                </a>
               </div>
             </div>
           </div>
@@ -848,7 +920,7 @@
 		</div>
 	</div>
 </div> -->
-    <script src="js/app.min.js?_v=20230401111045"></script>
+    <script src="js/app.min.js?_v=20230402190113"></script>
   </body>
 
 </html>
