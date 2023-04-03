@@ -622,7 +622,7 @@ textarea:focus-visible {
   top: 25px;
   border: 1px solid #180F35;
   border-top: 0;
-  z-index: -1;
+  z-index: 0;
   padding: 20px 0px 5px 0px;
   border-bottom-left-radius: 25px;
   border-bottom-right-radius: 25px;
