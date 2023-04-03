@@ -557,6 +557,8 @@ textarea:focus-visible {
 
 .main-search-form {
   margin-bottom: 100px;
+  position: relative;
+  z-index: 10;
 }
 
 .main-search-form strong {
