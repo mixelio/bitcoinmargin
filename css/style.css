@@ -719,8 +719,20 @@ input:focus-visible {
   width: 18px;
 }
 
+.swiper-android .swiper-slide {
+  -webkit-transform: scale(0.9);
+      -ms-transform: scale(0.9);
+          transform: scale(0.9);
+}
+
 .rewievs-slider {
   margin-bottom: 82px;
+}
+
+.rewievs-slider .swiper-android .swiper-slide {
+  -webkit-transform: scale(0.9);
+      -ms-transform: scale(0.9);
+          transform: scale(0.9);
 }
 
 .rewievs-slider .rewievs-slider__link {
@@ -1131,6 +1143,216 @@ input:focus-visible {
   line-height: 21px;
 }
 
+.article-body .article-body__main-image {
+  height: 300px;
+  width: 100%;
+  top: 0;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin-bottom: 50px;
+}
+
+.article-body__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 30px;
+}
+
+.article-body__main .article-body__subinfo {
+  margin-bottom: 50px;
+}
+
+.article-body__main .big-posts__more-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 20px;
+}
+
+.article-body__main .article-body__social-media ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 10px;
+}
+
+.article-body__main .article-body__social-media-link svg path {
+  -webkit-transition-duration: 300ms;
+       -o-transition-duration: 300ms;
+          transition-duration: 300ms;
+}
+
+.article-body__main .article-body__social-media-link:hover svg path {
+  fill: #31E7B1;
+}
+
+.article-body__main .article-body__main-text {
+  margin-bottom: 32px;
+}
+
+.article-body__main .article-body__main-text h1 {
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 62px;
+  margin-bottom: 20px;
+}
+
+.article-body__main .article-body__main-text h2 {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 153%;
+  margin: 80px 0 40px;
+}
+
+.article-body__main .article-body__main-text h3 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 153%;
+  margin: 20px 0 13px;
+}
+
+.article-body__main .article-body__main-text p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 153%;
+}
+
+.article-slider.rewievs-slider .swiper-wrapper {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.article-slider .rewievs-slider__container {
+  height: auto;
+}
+
+.article-slider .swiper-slide-next {
+  padding: 26px;
+  background: rgba(253, 253, 255, 0.6);
+  border: 2px solid rgba(247, 248, 255, 0.8);
+  -webkit-backdrop-filter: blur(4px);
+          backdrop-filter: blur(4px);
+  -webkit-transition: all 300ms ease-in-out;
+  -o-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+  border-radius: 12px;
+  -webkit-transform: scale(0.9);
+      -ms-transform: scale(0.9);
+          transform: scale(0.9);
+}
+
+.article-slider .swiper-slide-next .rewievs-slider__image {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 100px;
+          flex: 0 0 100px;
+}
+
+.article-slider .rewievs-slider__slide {
+  -webkit-transform: scale(0.9);
+      -ms-transform: scale(0.9);
+          transform: scale(0.9);
+}
+
+.article-slider .rewievs-slider__slide p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+}
+
+.article-slider .rewievs-slider__slide:hover {
+  background: #F6F8FF;
+}
+
+.article-slider .rewievs-slider__post-info {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #180F35;
+}
+
+.article-form {
+  margin-bottom: 40px;
+}
+
+.article-body__accide {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 450px;
+          flex: 0 0 450px;
+}
+
+.article-body__accide .article-body__accide-item {
+  padding: 0 40px;
+}
+
+.article-body__accide .article-body__accide-item:not(:last-child) {
+  margin-bottom: 100px;
+}
+
+.article-body__accide .article-body__accide-item h2 {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 153%;
+  margin-bottom: 50px;
+  text-transform: uppercase;
+}
+
+.article-body__accide .article-body__accide-item li:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.article-body__accide .article-body__accide-item:last-child h2 {
+  margin-bottom: 30px;
+}
+
+.article-body__accide .article-body__accide-link {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 26px;
+  -webkit-transition-duration: 300ms;
+       -o-transition-duration: 300ms;
+          transition-duration: 300ms;
+}
+
+.article-body__accide .article-body__accide-link._active {
+  color: #31E7B1;
+}
+
+.article-body__accide .article-body__accide-link:hover {
+  color: #31E7B1;
+}
+
+.article-body__accide .article-body__social-media {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 13px;
+}
+
+.article-body__accide .article-body__social-media ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 10px;
+}
+
+.article-body__accide .article-body__social-media-link svg path {
+  -webkit-transition-duration: 300ms;
+       -o-transition-duration: 300ms;
+          transition-duration: 300ms;
+}
+
+.article-body__accide .article-body__social-media-link:hover svg path {
+  fill: #31E7B1;
+}
+
 .swiper {
   overflow: hidden;
 }
@@ -1245,6 +1467,20 @@ input:focus-visible {
             justify-content: space-between;
     margin-bottom: 20px;
   }
+
+  .rewievs-slider .article-slider__slider {
+    height: auto;
+  }
+
+  .article-slider .swiper-slide-next .rewievs-slider__image {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 170px;
+            flex: 0 0 170px;
+  }
+
+  .rewievs-slider .rewievs-slider__slide {
+    padding: 26px;
+  }
 }
 
 @media (max-width: 1040px) {
@@ -1306,6 +1542,21 @@ input:focus-visible {
     -webkit-transform: rotate(45deg);
         -ms-transform: rotate(45deg);
             transform: rotate(45deg);
+  }
+
+  .article-body__row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .article-body__accide .article-body__accide-item {
+    padding: 0;
+  }
+
+  .article-body__accide .article-body__accide-item:not(:last-child) {
+    margin-bottom: 50px;
   }
 }
 
@@ -1428,6 +1679,18 @@ input:focus-visible {
   }
 
   .big-posts__more-info {
+    display: none;
+  }
+
+  .article-slider .swiper-slide-next .rewievs-slider__image {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 100px;
+            flex: 0 0 100px;
+  }
+}
+
+@media (max-width: 400px) {
+  .article-body__main .big-posts__more-info span:first-of-type {
     display: none;
   }
 }
