@@ -908,6 +908,7 @@ textarea:focus-visible {
   border: 1px solid #F6F8FF;
   border-radius: 12px;
   overflow: hidden;
+  background: #fff;
 }
 
 .big-posts__item img {
