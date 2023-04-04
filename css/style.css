@@ -1501,6 +1501,86 @@ textarea:focus-visible {
   padding: 30px 40px;
 }
 
+.faq .article-body__main {
+  background-color: #fff;
+  border: none;
+}
+
+.faq .article-body__accide {
+  position: sticky;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 250px;
+          flex: 0 0 250px;
+}
+
+.faq .article-body__accide-item li {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  cursor: pointer;
+}
+
+.faq .article-body__accide-item li:hover {
+  color: #31E7B1;
+}
+
+.error__page {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.error {
+  padding: 20px;
+}
+
+.error svg {
+  max-width: 100%;
+}
+
+.error__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 20px;
+}
+
+.back__link {
+  display: block;
+  padding: 10px 30px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 21px;
+  text-transform: capitalize;
+  color: #180F35;
+  background: #31E7B1;
+  border: 1px solid #31E7B1;
+  border-radius: 100px;
+  -webkit-transition-duration: 300ms;
+       -o-transition-duration: 300ms;
+          transition-duration: 300ms;
+}
+
+.back__link:hover {
+  background-color: #F6F8FF;
+}
+
 .swiper {
   overflow: hidden;
 }
@@ -1715,6 +1795,13 @@ textarea:focus-visible {
         -ms-flex-direction: column;
             flex-direction: column;
   }
+
+  .faq .article-body__row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
 }
 
 @media (max-width: 850px) {
@@ -1773,6 +1860,10 @@ textarea:focus-visible {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+  }
+
+  .faq .title {
+    font-size: 35px;
   }
 }
 
