@@ -561,6 +561,7 @@ textarea:focus-visible {
 }
 
 .footer__show-more-button {
+  display: inline-block;
   padding: 8px 16px;
   border: 1px solid #8D8C8C;
   border-radius: 8px;
@@ -1896,6 +1897,12 @@ textarea:focus-visible {
 
 .swiper-button-lock {
   display: none !important;
+}
+
+@media (min-width: 950px) {
+  .footer__show-more-button {
+    display: none;
+  }
 }
 
 @media (max-width: 1180px) {
